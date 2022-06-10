@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
-from datetime import datetime
+import datetime
 from pathlib import Path
 import os
 

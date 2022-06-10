@@ -11,9 +11,6 @@ This project uses docker to build and run locally.
 $ docker-compose build
 $ docker-compose up
 
-# Or do it in one command.
-$ docker-compose up -b
-
 # Run a custom command inside the container.
 $ docker-compose run --rm {{cookiecutter.project_name}}_backend <command>
 
