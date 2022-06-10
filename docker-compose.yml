@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  backend:
+    container_name: {{cookiecutter.project_name}}_backend
+    restart: on-failure
+    build: .
+    volumes:
+    - .:/code
+    ports:
+    - 8000:8000
+    environment:
+    - DJANGO_SECRET_KEY='local'
+    command: >
+      bash -c "
+      python manage.py migrate &&
+      python manage.py collectstatic --noinput &&
+      python manage.py create_super_user --username admin --password Passw0rd &&
+      python manage.py runserver 0.0.0.0:8000
+      "
