@@ -1,0 +1,16 @@
+# Core requirements
+Django==4.0.5
+django-filter==21.1
+djangorestframework==3.13.1
+djangorestframework-simplejwt==5.2.0
+factory-boy==3.2.1
+freezegun==1.2.1
+
+# Image storage
+Pillow==9.1.1
+
+# Test
+pytest==7.1.2
+pytest-cov==3.0.0
+pytest-django==4.5.2
+pytest-sugar==0.9.4
