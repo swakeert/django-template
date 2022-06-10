@@ -1,10 +1,8 @@
 # Django Template
 
-This is a cookiecutter template for starting my django projects.
+This is a [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) template for starting my django projects.
 
 ## Usage
-
-1. Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html).
 
 ```bash
 $ pip install cookiecutter
