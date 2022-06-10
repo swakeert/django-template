@@ -2,6 +2,25 @@
 
 {{cookiecutter.project_description}}
 
+## Docker
+
+This project uses docker to build and run locally.
+
+```bash
+# To build and run the container.
+$ docker-compose build
+$ docker-compose up
+
+# Or do it in one command.
+$ docker-compose up -b
+
+# Run a custom command inside the container.
+$ docker-compose run --rm {{cookiecutter.project_name}}_backend <command>
+
+# For example:
+$ docker-compose run --rm {{cookiecutter.project_name}}_backend python manage.py makemigrations
+```
+
 ## Pre-commit
 
 This repo uses [Pre-commit hooks](https://pre-commit.com/#install) to ensure code quality.
