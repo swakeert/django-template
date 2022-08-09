@@ -12,10 +12,10 @@ $ docker-compose build
 $ docker-compose up
 
 # Run a custom command inside the container.
-$ docker-compose run --rm {{cookiecutter.project_name}}_backend <command>
+$ docker-compose run --rm backend <command>
 
 # For example:
-$ docker-compose run --rm {{cookiecutter.project_name}}_backend python manage.py makemigrations
+$ docker-compose run --rm backend python manage.py makemigrations
 ```
 
 ## Pre-commit
@@ -31,7 +31,7 @@ This repo follow [Black](https://github.com/psf/black) linting standards, with a
 This repo uses pytest for testing.
 
 ```bash
-docker-compose run --rm {{cookiecutter.project_name}}_backend pytest
+docker-compose run --rm backend pytest
 ```
 
 ## django-template
