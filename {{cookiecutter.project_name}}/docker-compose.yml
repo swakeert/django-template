@@ -32,7 +32,7 @@ services:
     image: postgres
     container_name: {{cookiecutter.project_name}}_db
     volumes:
-      - ./data/db:/var/lib/postgresql/data
+      - ./pg_data/db:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres

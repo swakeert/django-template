@@ -134,4 +134,4 @@ dmypy.json
 .DS_Store
 
 # Postgres Volume for Django container persistance
-data
+pg_data/
