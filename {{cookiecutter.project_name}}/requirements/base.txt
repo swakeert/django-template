@@ -3,8 +3,10 @@ Django==4.0.6
 django-filter==21.1
 djangorestframework==3.13.1
 djangorestframework-simplejwt==5.2.0
+django-configurations==2.3.2
 factory-boy==3.2.1
 freezegun==1.2.1
+psycopg2==2.9.3
 
 # Image storage
 Pillow==9.1.1
