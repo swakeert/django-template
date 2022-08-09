@@ -52,7 +52,6 @@ If you find any problems, you can also raise an issue.
 
 ## Planned improvements
 
-* PostgreSQL container
 * CI/ CD entrypoint script
 * Improve README
 * Implement general auth endpoints like register, login, forgot password, token management, etc.
