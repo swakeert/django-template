@@ -4,4 +4,4 @@
 django-extensions==3.1.5
 ipython==8.4.0
 
-Werkzeug==2.1.2 # required with django-extensions runserver_plus
+Werkzeug==2.2.3 # required with django-extensions runserver_plus
