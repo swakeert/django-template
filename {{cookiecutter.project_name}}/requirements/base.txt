@@ -9,7 +9,7 @@ freezegun==1.2.1
 psycopg2==2.9.3
 
 # Image storage
-Pillow==9.3.0
+Pillow==10.0.1
 
 # Test
 pytest==7.1.2
